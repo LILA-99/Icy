@@ -1,3 +1,6 @@
+The original Icy code, none of Infini-Dev's, WeAmDev's, or Maximus's code. This is all original RipDev
+(With a few fixes I made, to make it work again.)
+
 This is Icy, a lightweight DPKG-based installer for the iPhone. It works
 on both 2.2.x and 3.x, although it may need some tuning for the latest
 firmware versions.

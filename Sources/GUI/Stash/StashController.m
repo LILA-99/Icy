@@ -138,8 +138,8 @@ static void sig_chld_waitpid(int signal);
 	strcpy(stashDir, STASH_DIR);
 	strcat(stashDir, [[dir lastPathComponent] UTF8String]);
 	
-	// make random ending for the stash dir
-	strcat(stashDir, [[NSString stringWithFormat:@"-%@", [[[[NSDate date] description] MD5Hash] substringToIndex:5]] UTF8String]);
+	// make random ending for the stash dir -- Yea, we don't need this crap, K? :)
+	//strcat(stashDir, [[NSString stringWithFormat:@"-%@", [[[[NSDate date] description] MD5Hash] substringToIndex:5]] UTF8String]);
 	
 	printf("Stashing %s -> %s\n", [dir fileSystemRepresentation], stashDir); fflush(stdout);
 		
